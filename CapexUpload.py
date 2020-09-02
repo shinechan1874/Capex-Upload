@@ -2,7 +2,7 @@ import win32com.client
 import openpyxl
 import os
 import pandas as pd
-CapexUpload = "C:/Users/SXC57/Desktop/CapexUpload"
+CapexUpload = ""
 month="Jan20"
 
 outlook = win32com.client.Dispatch("Outlook.Application").GetNamespace("MAPI")
